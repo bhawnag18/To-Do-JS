@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo JS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/90bc066b2e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="first">
+        <div id="left">
+            <p>Tasks<span class="spann"> Lists</span></p>
+        </div>
+        <div id="right"><p><i class="fas fa-plus-circle pluss"></i> Add Lists</p></div>
+    </div>
+
+    <p class="test">No Items in the ToDo List</p>
+    
+    <div id="containerItem"></div>  
+
+    <div id="second" class="common" >
+        <p class="back_btn"><i class="fas fa-arrow-circle-left"></i> Back</p>
+        <p style="font-size: 3rem; color:rgb(187, 86, 103)">Title of the List:<span class="titlenp"></span></p>
+    </div>
+    
+    <div id="third" class="common hidden">
+        <div class="smallDiv">
+           <p class="mask_title">Add New List</p>
+           <input type="text" class="input_title" placeholder="Add New List">
+             <div>
+               <button class="add_btn">Add</button>
+               <button class="close_btnn" onclick="closer()">Close</button>
+             </div>
+        </div>
+    </div>
+
+    <div class="common hidden2">
+        <div class="smallDiv">
+            <p class="mask_title">Add New Item</p>
+            <input type="text" class="input_iteam" placeholder="Add New Item">
+             <div>
+               <button class="add_btnn">Add</button>
+               <button class="close_btnn" onclick="closer2()">close</button>
+             </div>
+        </div>
+    </div>
+
+    <div class="overlay hidden"></div>
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

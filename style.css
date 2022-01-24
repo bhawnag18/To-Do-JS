@@ -1,0 +1,255 @@
+  *{ 
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+  }
+  body{
+    background-color: beige
+    }
+  .first{
+      width:100%;
+      height:10rem;
+      display:flex;
+      flex-wrap:wrap;
+      justify-content: space-between;
+      padding:30px;
+      font-size:4rem;
+      
+  }
+  .index_header{
+      height:8rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin:3rem 0 0 0;
+  }
+ 
+  .pluss{
+      color:rgb(187, 86, 103);
+      
+  }
+  .spann{
+      
+      color:rgb(187, 86, 103);
+  }
+ .pluss:hover{
+     cursor: pointer;
+ }
+  
+  #containerItem{
+   
+    width:100%;
+    height:auto;
+    display:flex;
+    
+    flex-wrap: wrap;
+    justify-content:space-between;
+  }
+  
+  
+  
+  
+   .common{
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index:500;
+    }
+    .hidden{
+      display:none;
+    }
+    .hidden2{
+      display:none;
+    }
+  
+    .smallDiv{
+      width:30rem;
+      height:15rem;
+      background-color: beige;
+      border:5px inset rgb(187, 86, 103);
+      border-radius:1rem;
+      display: flex;
+      flex-direction:column;
+      align-items: center;
+      justify-content: center;
+      box-shadow:0.4rem 0.4rem 0.5rem 0.1rem brown;
+      position:absolute;
+      bottom:0;
+      left:0;
+      right: 0;
+      top: 0;
+      margin: auto;
+  }
+  .smallDiv p{
+      font-size:2rem;
+      color: rgb(187, 86, 103);
+  }
+  .smallDiv p~input[type=text]{
+      color:rgb(187, 86, 103);
+      width:20rem;
+      height:2.5rem;
+      border:2px solid rgb(187, 86, 103);
+      border-radius:0.5rem;
+      margin:0.5rem 0 1rem 0;
+      box-shadow:0.1rem 0.1rem 0.3rem 0.09rem rgb(211, 211, 211);
+  }
+  .input_title
+  {
+    text-align:center;
+    font-size:1.2rem;
+    color:rgb(187, 86, 103);
+  }
+  .input_iteam
+  {
+    text-align:center;
+    font-size:1.2rem;
+    color:rgb(187, 86, 103);
+  }
+  .add_btnn{
+      width:6.5rem;
+      height:2.6rem;
+      background-color:rgb(187, 86, 103);
+      color: white;
+      border:0;
+      border-radius:1.2rem;
+      font-size:1.4rem;
+      cursor: pointer;
+  }
+  .close_btnn{
+    width:6.5rem;
+    height:2.6rem;
+    background-color:rgb(187, 86, 103);
+    color: white;
+    border:0;
+    border-radius:1.2rem;
+    font-size:1.4rem;
+    cursor: pointer;
+  }
+  #second{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    position: relative;
+    top:-30rem;
+    font-size:2.5rem;
+    margin:auto;
+  }
+  .back_btn{
+    color:rgb(187, 86, 103);
+    cursor:pointer;
+  }
+ 
+  .titlenp{
+    color:rgb(187, 86, 103);
+    font-size:4rem;
+  }
+  
+  .add_btn{
+    width:6.5rem;
+    height:2.6rem;
+    background-color:rgb(187, 86, 103);
+    color: white;
+    border:0;
+    border-radius:1.2rem;
+    font-size:1.4rem;
+    cursor: pointer;
+}
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(3px);
+    z-index: 5;
+  }
+  
+  
+  .index_box{
+    width:17rem;
+    height:25rem;
+    border:5px solid brown;
+    
+    margin:7rem;
+    border-radius:1rem;
+    box-shadow:0.6rem 0.6rem 0.8rem 0.1rem rgb(184, 101, 101);
+  }
+  .index_box>p:first-child{
+    font-size:1.9rem;
+    color: green;
+    text-align: center;
+    margin:1.8rem 0 0.5rem 0;
+  }
+  .index_box>hr{
+    width:80%;
+    float:right;
+    border:1px solid brown;
+  }
+  
+  .task_box{
+    width:17rem;
+    height:17.5rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+    color:green;
+    font-size:1.2rem;
+    letter-spacing:1px;
+  }
+  .task_icon{
+    display:flex;
+    position: relative;
+    top:0.1rem;
+    left:12rem;
+  }
+  .task_plus{
+    color:rgba(6, 6, 71, 0.651);
+    font-size:1.8rem;
+    display:absolute;
+    cursor: pointer;
+  }
+  
+  .task_trash{
+    color:tomato;
+    font-size:1.8rem;
+    margin:0 0 0 0.5rem;
+    cursor: pointer;
+  }
+  
+  
+  
+ 
+  
+  .task_box>p {
+    cursor: pointer;
+  }
+  
+  .no_found_img{
+    margin:2rem 0 0 40rem;
+  }
+  .test{
+    color:brown;
+    padding-left:10rem;
+    font-size:2.8rem;
+  }
+  .title{
+    cursor: pointer;
+  }
+  
+  .hidden_page_element{
+    margin:8rem 0 0 33rem;
+  }
+  
+ 
+  .new_page_title_box{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+  }
+  
+ 
